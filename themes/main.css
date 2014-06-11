@@ -17,7 +17,6 @@ body {
 	padding: 1rem;
 	padding-bottom: 0;
 	height: 100%;
-	position: relative;
 }
 
 body>* {
@@ -137,6 +136,7 @@ main {
 	padding: 0.5em;
 	border-radius: 0.5rem;
 	width: 100%;
+	min-height: calc(100% - 15rem - 185px);
 }
 
 main>*:last-child {
@@ -164,10 +164,7 @@ footer {
 	font-size: 0.9em;
 	font-weight: bold;
 	color: rgb(0, 100, 0);
-	position: absolute;
-	bottom: 1.5rem;
-	left: 1rem;
-	right: 0%;
+	width: 100%;
 }
 
 footer>p {
